@@ -7,8 +7,22 @@
             <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage02.jpg" mode="widthFix" />
         </navigator>
         <navigator url="/pages/xsjykjj/xsjykjj?name=医院项目" >
-            <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage03.jpg" mode="widthFix" />
+            <image src="../../pageimages/title.jpg" mode="widthFix" />
         </navigator>
+        <view class="box">
+                    <navigator url="/pages/shopping/shopping?id=4&conut=3&name=验光配镜">
+                        <image src="../../images/xsjyk-min01.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=4&conut=2&name=白内障治疗">
+                        <image src="../../images/xsjyk-min02.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=4&conut=1&name=近视手术">
+                        <image src="../../images/xsjyk-min03.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=4&conut=4&name=儿童视力矫正">
+                        <image src="../../images/xsjyk-min04.jpg"></image>
+                    </navigator>
+        </view>
         <navigator url="/pages/xsjykgaqn/xsjykgaqn?name=关爱青少年" >
             <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage04.jpg" mode="widthFix" />
         </navigator>

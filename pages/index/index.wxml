@@ -71,13 +71,13 @@
                 </navigator>
                 
                 <view class="box">
-                    <navigator url="/pages/shopping/shopping?id=4&conut=1&name=验光配镜">
+                    <navigator url="/pages/shopping/shopping?id=4&conut=3&name=验光配镜">
                         <image src="../../images/xsjyk-min01.jpg"></image>
                     </navigator>
                     <navigator url="/pages/shopping/shopping?id=4&conut=2&name=白内障治疗">
                         <image src="../../images/xsjyk-min02.jpg"></image>
                     </navigator>
-                    <navigator url="/pages/shopping/shopping?id=4&conut=3&name=近视手术">
+                    <navigator url="/pages/shopping/shopping?id=4&conut=1&name=近视手术">
                         <image src="../../images/xsjyk-min03.jpg"></image>
                     </navigator>
                     <navigator url="/pages/shopping/shopping?id=4&conut=4&name=儿童视力矫正">

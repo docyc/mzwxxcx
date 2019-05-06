@@ -1,4 +1,24 @@
-.main{
-    flex:1;
-    overflow: hidden;
+.main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 336rpx;
+  margin: 8rpx 16rpx 8rpx 16rpx;
+}
+
+.box navigator {
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.box image {
+  width: 356rpx;
+  height: 164rpx;
 }
