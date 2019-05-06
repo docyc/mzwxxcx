@@ -1,0 +1,72 @@
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+}
+.header{
+    background-color: #fff;
+}
+.header .box{
+    height: 710rpx;
+}
+.header .content{
+    display: flex;
+    flex-direction:column;
+    margin: 20rpx;
+    border-top: 1px solid #f5f5f5;
+}
+.header .content .title{
+    font-size: 34rpx;
+    color:#454545;
+    margin-top: 10rpx;
+}
+.header .content .descript{
+    font-size: 22rpx;
+    color:#a1a1a1;
+    margin-top: 34rpx;
+}
+.header .content .bottom{
+    display: flex;
+    align-items: flex-end;
+    font-size: 22rpx;
+    color:#a1a1a1;
+    margin: 34rpx 0;
+}
+.header .content .bottom .price{
+    color:red;
+    font-size: 24rpx;
+    flex:1;
+}
+.header .content .bottom .i{
+    font-size: 42rpx;
+}
+.header .content .bottom .rows{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info{
+    flex:1;
+}
+.info .tabar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 28rpx;
+    background-color: #fff;
+}
+.info .tabar view{
+    line-height: 85rpx;
+}
+.info .tabar .active{
+    color:red;
+}
+
+/* .tabbar{
+    height: 94rpx;
+} */
+
+.tabbar image{
+    height: 94rpx;
+}

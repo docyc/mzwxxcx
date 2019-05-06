@@ -1,0 +1,53 @@
+<!-- pages/content/detail/detail.wxml -->
+<view class="container">
+    <view class="tabars">
+        <text class="active" bindtap="tapbartext">商品</text>
+        <text bindtap="tapbartext">评价</text>
+        <text bindtap="tapbartext">详情</text>
+        <text bindtap="tapbartext">推荐</text>
+    </view>
+    <scroll-view class="scrollbox" scroll-y>
+        <swiper class="box">
+            <swiper-item class="item" >
+                <image src="../../../images/content/eye.jpg" mode="aspectFill" />
+            </swiper-item>
+            <swiper-item class="item" >
+                <image src="../../../images/content/fengs.jpg" mode="aspectFill" />
+            </swiper-item>
+            <swiper-item class="item" >
+                <image src="../../../images/content/shiljz.jpg" mode="aspectFill" />
+            </swiper-item>
+        </swiper>
+        <view class="main">
+            <text class="title">大标题是我的内容</text>
+            <view class="description">
+                类别：
+                <text class="category">医药同源</text>
+                作者：
+                <text class="author">张三</text>
+                发布时间：
+                <text class="newtime">2019-04-20 15:44:41</text>
+
+                <image />
+                <image />
+                <image />
+                <image />
+                <image />
+                <image />
+                <image />
+                <image />
+                <image id="cc" />
+                <image />
+                <image />
+            </view>
+            <include src="../../../template/status" />
+        </view>
+    </scroll-view>
+
+
+    <view class="footer">
+        <view class="left"></view>
+        <view class="cart">加入购物车</view>
+        <view class="shopping">立即购买</view>
+    </view>
+</view>

@@ -1,0 +1,40 @@
+<!-- pages/content/detail/detail.wxml -->
+
+<view class="container">
+    <scroll-view class="main" scroll-y>
+        <!--<view class="header">
+            <swiper class="box" >
+                <swiper-item class="item" >
+                    <image src="{{!conut ? infoData[urlId-1].pic : infoData[urlId-1].childs[conut-1].pic}}" mode="aspectFill" />
+                </swiper-item>
+            </swiper>
+            <view class="content">
+                <view class="title">{{!conut ? infoData[urlId-1].title : infoData[urlId-1].childs[conut-1].title}}</view>
+                <view class="descript">{{!conut ? infoData[urlId-1].description : infoData[urlId-1].childs[conut-1].description}}</view>
+                <view class="bottom">
+                    <view class="price">¥<text class="i">{{!conut ? infoData[urlId-1].price : infoData[urlId-1].childs[conut-1].price}}</text></view>
+                    <view class="rows"><text>{{(!conut ? infoData[urlId-1].rows : infoData[urlId-1].childs[conut-1].rows) ? infoData[urlId-1].rows : '暂无'}}人购买</text></view>
+                </view>
+            </view>
+        </view> -->
+
+        <view class="info">
+            <!--<view class="tabar">
+                <view class="left active">图文详情</view>
+                <view class="right">商品评价</view>
+            </view>-->
+            <view class="content">
+                <block wx:if="{{!conut ? infoData[urlId-1].info.lenght>1 : infoData[urlId-1].childs[conut-1].info.lenght>1}}">
+                    <image wx:for="{{!conut ? infoData[urlId-1].info : infoData[urlId-1].childs[conut-1].info}}" wx:key="{{index}}" src="{{item[index]}}"></image>
+                </block>
+                <image wx:else src="{{!conut ? infoData[urlId-1].info[0] : infoData[urlId-1].childs[conut-1].info[0]}}" mode="widthFix"></image>
+            </view>
+        </view>
+        <!-- 上拉业务 -->
+        <include src="../../template/status" />
+    </scroll-view>
+
+    <!-- <view class="tabbar">
+        <image src="../../pageimages/tabbar.jpg" mode="aspectFill"></image>
+    </view> -->
+</view>

@@ -1,0 +1,18 @@
+<view class="container">
+    <scroll-view class="main" scroll-y>
+        <navigator url="/pages/xsjykjj/xsjykjj?name=医院介绍" >
+            <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage01.jpg" mode="widthFix" />
+        </navigator>
+        <navigator url="/pages/xsjykys/xsjykys?name=医生简介" >
+            <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage02.jpg" mode="widthFix" />
+        </navigator>
+        <navigator url="/pages/xsjykjj/xsjykjj?name=医院项目" >
+            <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage03.jpg" mode="widthFix" />
+        </navigator>
+        <navigator url="/pages/xsjykgaqn/xsjykgaqn?name=关爱青少年" >
+            <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/xsjykpage04.jpg" mode="widthFix" />
+        </navigator>
+        <!-- 上拉业务 -->
+        <include src="../../template/status" />
+    </scroll-view>
+</view>

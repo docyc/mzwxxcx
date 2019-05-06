@@ -1,0 +1,95 @@
+.serch{
+    border-top:2px solid #ccc;
+}
+.serch input{
+    width: 705rpx;
+    height: 60rpx;
+    border-radius: 6rpx;
+    border:2rpx solid #ccc;
+    margin:20rpx auto;
+    box-shadow: 0 0 3rpx #ccc;
+    text-align: center;
+    font-size: 28rpx;
+    background-color: #fff;
+}
+
+.header{
+    /*display: flex;
+    fles-direction:column;*/
+}
+.header .box{
+    height: 316rpx;
+}
+.box .item image{
+    width: 100%;
+    height: 100%;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content:space-between;
+    height: 200rpx;
+    align-items: center;
+    margin-top:8rpx;
+    background-color: #fff;
+}
+.navbar .item{
+    flex: 1;
+    text-align: center;
+}
+.navbar .item image{
+    width: 90rpx;
+    height: 90rpx;
+}
+.navbar .item text{
+    display: block;
+    font-size: 26rpx;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    margin-top:24rpx;
+}
+/*会员活动信息*/
+.mainContent .sales{
+    margin-bottom: 40rpx;
+}
+.mainContent .sales>image{
+    width: 750rpx;
+    height: 250rpx;
+}
+.mainContent .sales .box1{
+    display: flex;
+    justify-content: space-between;
+    margin: 8rpx 16rpx 8rpx 16rpx;
+}
+.mainContent .sales .box1 image{
+    width: 176rpx;
+    height: 164rpx;
+}
+/*公共样式*/
+.mainContent .section{
+    margin-bottom: 40rpx;
+}
+.mainContent .section>image{
+    width: 750rpx;
+    height: 250rpx;
+}
+.mainContent .box{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content:space-between;
+    height: 336rpx;
+    margin: 8rpx 16rpx 8rpx 16rpx;
+}
+.mainContent .box image{
+    width: 356rpx;
+    height: 164rpx;
+}
+
+.mainContent .section>.headerimg{
+    width: 750rpx;
+    height: 250rpx;
+}

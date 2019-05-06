@@ -1,0 +1,60 @@
+.container{
+    /* justify-content: space-between; */
+}
+.tabars{
+    display: flex;
+    justify-content: center;
+    padding-left:80rpx;
+    padding-right:80rpx;
+    background-color: #fff;
+}
+.tabars text{
+    font-size:32rpx;
+    flex:1;
+    text-align: center;
+    padding:10rpx 5rpx;
+    color: #666;
+}
+.tabars text.active{
+    color:red;
+    border-bottom:2rpx solid red;
+}
+.scrollbox{
+    display: flex;
+    flex:111;
+    overflow:hidden;
+    /* background-color: red; */
+}
+.box{
+    height: 563rpx;
+}
+.box .item image{
+    width: 100%;
+    height: 100%;
+}
+.main{
+
+}
+.footer{
+    display:flex;
+    align-items: center;
+    font-size:36rpx;
+}
+.footer view{
+    height: 98rpx;
+    background-color: #fff;
+    text-align: center;
+    line-height:98rpx;
+}
+.footer .left{
+    flex:3;
+}
+.footer .cart{
+    flex:2;
+    background-color: #f60;
+}
+.footer .shopping{
+    flex:2;
+    background-color: #666;
+    color:#efefef;
+}

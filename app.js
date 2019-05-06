@@ -1,0 +1,129 @@
+//app.js
+App({
+  onLaunch: function () {
+    // 展示本地存储能力
+    console.log('111')
+  },
+  globalData: {
+    userInfo: '123',
+    pageData:[
+      {
+        id:1,
+        name:'会员活动',
+        title:'会员',
+        description:'会员卡钜惠',
+        price:99,
+        rows:2,
+        pic:'../../images/content/member.jpg',
+        info: ['https://www.lemacy.wang/wp-content/uploads/2019/04/hyinfo.jpg'],
+        childs:[]
+      },
+      {
+        id:2,
+        name:'特色诊疗',
+        title:'特色诊疗',
+        description:'会员卡钜惠',
+        price:99,
+        rows:2,
+        pic:'../../images/content/member.jpg',
+        info:[''],
+        childs:[
+          {
+            id:1,
+            name:'久咳不愈',
+            title:'久咳不愈',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/ke.jpg',
+            info:['https://www.lemacy.wang/wp-content/uploads/2019/04/jkby_info.jpg']
+          },
+          {
+            id:2,
+            name:'过敏性哮喘',
+            title:'过敏性哮喘',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/xiangc.jpg',
+            info:['https://www.lemacy.wang/wp-content/uploads/2019/04/xc_info.jpg']
+          },
+          {
+            id:3,
+            name:'风湿骨痛',
+            title:'风湿骨痛',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/fengs.jpg',
+            info:['https://www.lemacy.wang/wp-content/uploads/2019/04/fsgt_info.jpg']
+          },
+          {
+            id:4,
+            name:'月经不调',
+            title:'月经不调',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/yuejinbt.jpg',
+            info:['https://www.lemacy.wang/wp-content/uploads/2019/04/yjbt_info.jpg']
+          }
+        ]
+      },
+      {},
+      {
+        id:4,
+        name:'新世界眼科',
+        title:'新世界眼科',
+        description:'关注眼睛健康',
+        price:99,
+        rows:2,
+        pic:'../../images/content/member.jpg',
+        info:[''],
+        childs:[
+          {
+            id:1,
+            name:'验光配镜',
+            title:'验光配镜',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/eye.jpg',
+            info: ['https://www.lemacy.wang/wp-content/uploads/2019/04/jsinfo.jpg']
+          },
+          {
+            id:2,
+            name:'白内障治疗',
+            title:'白内障治疗',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/bainz.jpg',
+            info: ['https://www.lemacy.wang/wp-content/uploads/2019/04/bnzinfo.jpg']
+          },
+          {
+            id:3,
+            name:'近视手术',
+            title:'近视手术',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/jinsss.jpg',
+            info: ['https://www.lemacy.wang/wp-content/uploads/2019/04/yginfo.jpg']
+          },
+          {
+            id:4,
+            name:'儿童视力矫正',
+            title:'儿童视力矫正',
+            description:'这里是描述内容',
+            price:99,
+            rows:2,
+            pic:'../../images/content/shiljz.jpg',
+            info: ['https://www.lemacy.wang/wp-content/uploads/2019/04/etsljzinfo.jpg']
+          }
+        ]
+      }
+
+    ]
+  }
+})

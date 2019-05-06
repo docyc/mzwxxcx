@@ -1,0 +1,10 @@
+<view class="status">
+        <!-- 底部加载更多结构 Start -->
+        <view class="xlts" wx:if="{{ srcollStatus }}">
+            <text>o(╥﹏╥)o 客官，已经走到底了</text>
+        </view>
+        <view class="xlts" wx:else>
+            <text>--- 😊 加载中... ---</text>
+        </view>
+        <!-- 底部加载更多结构 End -->
+</view>

@@ -1,0 +1,8 @@
+<!--pages/makq/makq.wxml-->
+<view class="container">
+
+
+
+    <!-- 上拉业务 -->
+    <include src="../../template/status" />
+</view>

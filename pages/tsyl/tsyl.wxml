@@ -1,0 +1,7 @@
+<view class="container">
+    <scroll-view class="main" scroll-y>
+        <image src="https://www.lemacy.wang/wp-content/uploads/2019/04/tsylpage.jpg" mode="widthFix" />
+        <!-- 上拉业务 -->
+        <include src="../../template/status" />
+    </scroll-view>
+</view>

@@ -1,0 +1,26 @@
+<!-- pages/content/lists/list.wxml -->
+<view class="container">
+    <!-- 搜索框 -->
+    <view class="serch">
+        <input type="text" placeholder="搜索" />
+    </view>
+    <view class="content">
+        <navigator class="box" url="/pages/content/detail/detail" wx:for="{{ lists }}" wx:key="{{index}}">
+            <view class="picture">
+                <image src="{{ item.picurl }}" class="pic" mode="aspectFill" />
+            </view>
+            <view class="info">
+                <view class="left">
+                    <text class="title">{{ item.title }}</text>
+                    <text class="description">{{ item.description }}}</text>
+                </view>
+                <view class="right">
+                    <text>{{ item.price }}</text><text class="i">元</text>
+                </view>
+            </view>
+        </navigator>
+
+    </view>
+    <!-- 上拉业务 -->
+    <include src="../../../template/status" />
+</view>

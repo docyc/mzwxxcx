@@ -1,0 +1,103 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <view class="main">
+        <!-- 搜索框 -->
+        <!-- <view class="serch">
+            <input type="text" placeholder="搜索" />
+        </view> -->
+        <!-- 图片轮播 -->
+        <!-- 特色信息入口 -->
+        <view class="header">
+            <swiper class="box" indicator-dots autoplay interval="2000" circular>
+                <swiper-item class="item" wx:for="{{bannerData}}" wx:key="{{item.id}}">
+                    <image src="{{item.picurl}}" mode="aspectFill" />
+                </swiper-item>
+            </swiper>
+            <view class="navbar">
+                <block wx:for="{{ navportData }}" wx:key="{{index}}">
+                  <navigator class="item" url="/pages/{{item.catalog}}/{{item.catalog}}?name={{item.name}}&id={{item.id}}" hover-class="none">
+                      <image src="{{ item.picurl }}" mode="aspectFill"></image>
+                      <text>{{ item.name }}</text>
+                  </navigator>
+                </block>
+            </view>
+        </view>
+        <!-- 主内容区域 -->
+        <view class="mainContent">
+            <!-- 会员活动信息 -->
+            <navigator class="sales" url="/pages/shopping/shopping?id=1&name=会员活动">
+                <image src="../../images/hy-max.jpg" mode="aspectFill"></image>
+                <view class="box1">
+                    <image src="../../images/hy-min01.jpg"></image>
+                    <image src="../../images/hy-min02.jpg"></image>
+                    <image src="../../images/hy-min03.jpg"></image>
+                    <image src="../../images/hy-min04.jpg"></image>
+                </view>
+            </navigator>
+            <!-- 中医特色诊疗 -->
+            <view class="section">
+                <navigator class="headerimg" url="/pages/{{ navportData[1].catalog }}/{{ navportData[1].catalog }}?ame={{navportData[1].name}}&id={{navportData[1].id}}">
+                    <image src="../../images/tszl-max.jpg"></image>
+                </navigator>
+                <view class="box">
+                    <navigator url="/pages/shopping/shopping?id=2&conut=1&name=久咳不愈">
+                      <image src="../../images/tszl-min01.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=2&conut=2&name=过敏性哮喘">
+                      <image src="../../images/tszl-min02.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=2&conut=3&name=风湿骨痛">
+                      <image src="../../images/tszl-min03.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=2&conut=4&name=月经不调">
+                      <image src="../../images/tszl-min04.jpg"></image>
+                    </navigator>
+                </view>
+            </view>
+            <!-- 绿色治疗 -->
+            <view class="section">
+                <image src="../../images/lszl-max.jpg"></image>
+                <view class="box">
+                    <image src="../../images/lszl-min01.jpg"></image>
+                    <image src="../../images/lszl-min02.jpg"></image>
+                    <image src="../../images/lszl-min03.jpg"></image>
+                    <image src="../../images/lszl-min04.jpg"></image>
+                </view>
+            </view>
+            <!-- 新世界眼科 -->
+            <view class="section">
+                <navigator class="headerimg" url="/pages/{{ navportData[2].catalog }}/{{ navportData[2].catalog }}?ame={{navportData[2].name}}&id={{navportData[1].id}}">
+                    <image src="../../images/xsjyk-max.jpg"></image>
+                </navigator>
+                
+                <view class="box">
+                    <navigator url="/pages/shopping/shopping?id=4&conut=1&name=验光配镜">
+                        <image src="../../images/xsjyk-min01.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=4&conut=2&name=白内障治疗">
+                        <image src="../../images/xsjyk-min02.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=4&conut=3&name=近视手术">
+                        <image src="../../images/xsjyk-min03.jpg"></image>
+                    </navigator>
+                    <navigator url="/pages/shopping/shopping?id=4&conut=4&name=儿童视力矫正">
+                        <image src="../../images/xsjyk-min04.jpg"></image>
+                    </navigator>
+                </view>
+            </view>
+            <!-- 美昂口腔 -->
+            <view class="section">
+                <image src="../../images/makq-max.jpg"></image>
+                <view class="box">
+                    <image src="../../images/makq-min01.jpg"></image>
+                    <image src="../../images/makq-min02.jpg"></image>
+                    <image src="../../images/makq-min03.jpg"></image>
+                    <image src="../../images/makq-min04.jpg"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- TabBar导航 -->
+    <!-- <view class="tabbar"></view> -->
+    <include src="../../template/status" />
+</view>

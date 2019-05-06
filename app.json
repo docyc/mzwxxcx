@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/content/lists/list",
+    "pages/content/detail/detail",
+    "pages/ysty/ysty",
+    "pages/tsyl/tsyl",
+    "pages/xsjyk/xsjyk",
+    "pages/xsjykjj/xsjykjj",
+    "pages/xsjykys/xsjykys",
+    "pages/xsjykgaqn/xsjykgaqn",
+    "pages/makq/makq",
+    "pages/shopping/shopping"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "门诊个小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#de3025",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/home.jpg",
+      "selectedIconPath": "/images/home.jpg"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "分类",
+      "iconPath": "/images/class.jpg",
+      "selectedIconPath": "/images/class.jpg"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "销售",
+      "iconPath": "/images/sales.jpg",
+      "selectedIconPath": "/images/sales.jpg"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "购物车",
+      "iconPath": "/images/shopping.jpg",
+      "selectedIconPath": "/images/shopping.jpg"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "/images/me.jpg",
+      "selectedIconPath": "/images/me.jpg"
+    }
+    ]
+  }
+}
